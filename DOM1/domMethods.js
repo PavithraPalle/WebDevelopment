@@ -71,34 +71,62 @@
 // })
 
 //? mouseover event
-let btn = document.getElementById("btn");
-btn.addEventListener("mouseover", () => {
-    // alert("Mouse enter");
-    document.body.style.background = "teal";
+// let btn = document.getElementById("btn");
+// btn.addEventListener("mouseover", () => {
+//     // alert("Mouse enter");
+//     document.body.style.background = "teal";
 
+// })
+
+// //? mouseover event
+// let btn1 = document.getElementById("btn");
+// btn.addEventListener("mouseleave", () => {
+//     // alert("Mouse enter");
+//     document.body.style.background = "tomato";
+
+// })
+
+// //? keydown event
+// let inp = document.querySelector("#inp");
+// inp.addEventListener("keydown", () => {
+//     console.log("Key down");
+// })
+
+
+// //? keyup event
+// inp.addEventListener("keyup", () => {
+//     console.log("key up");
+// })
+
+let div1 = document.getElementById("test1");
+div1.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "red";
 })
 
-//? mouseover event
-let btn1 = document.getElementById("btn");
-btn.addEventListener("mouseleave", () => {
-    // alert("Mouse enter");
-    document.body.style.background = "tomato";
-
+let div2 = document.getElementById("test2");
+div2.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "green";
 })
 
-let inp = document.querySelector("#inp");
-inp.addEventListener("keydown", () => {
-    console.log("Key down");
-
-
+let div3 = document.getElementById("test3");
+div3.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "yellow";
 })
 
-inp.addEventListener("keyup", () => {
-    console.log("key up");
+let div4 = document.getElementById("test4");
+div4.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "teal";
 })
 
+let div5 = document.getElementById("test5");
+div5.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "orange";
+})
 
-
+let div6 = document.getElementById("test6");
+div6.addEventListener("mouseover", () => {
+    document.body.style.backgroundColor = "blue";
+})
 
 
 
